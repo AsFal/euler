@@ -16,7 +16,7 @@ def lowest_common_multiple(number):
         # we iterate through each found factor (stored in the factors library)
         for factor in factors:
             # Verification of remainder with the module operator
-            for i in range(0, factors[factor]):
+            for j in range(0, factors[factor]):
                 if temp%factor == 0:
                     temp = temp/factor
                 else:
