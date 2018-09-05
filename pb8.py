@@ -1,4 +1,4 @@
-file = open("big_number.txt", "r")
+file = open("ressources/big_number.txt", "r")
 big_fat_number = int(file.read())
 
 

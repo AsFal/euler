@@ -33,4 +33,4 @@ def lowest_common_multiple(number):
         multiple = multiple*pow(factor, factors[factor])
     return multiple
 
-print lowest_common_multiple(10000)
+print lowest_common_multiple(1000)
